@@ -1,4 +1,9 @@
-.pageHeader {
-    width: 100%;
-    text-align: center !important;
+.headshot {
+        display: block;
+        border-radius: 2%;
+        max-width:500px;
+        max-height:350px;
+        width: auto;
+        height: auto;
+        justify-content: center;
 }

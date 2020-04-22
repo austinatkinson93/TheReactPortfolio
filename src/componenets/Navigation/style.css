@@ -9,3 +9,9 @@
     display: inline-block;
     float:none;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

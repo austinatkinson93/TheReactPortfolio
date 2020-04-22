@@ -6,4 +6,10 @@
         width: auto;
         height: auto;
         justify-content: center;
+        margin: auto;
 }
+/* 
+.yeah {
+        display: flex;
+        flex-direction: column;
+} */

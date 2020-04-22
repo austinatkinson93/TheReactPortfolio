@@ -1,0 +1,16 @@
+.category,
+.title,
+.footer {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 50px;
+}
+
+.category {
+  top: 0;
+}
+
+.title {
+  top: 0;
+}
+

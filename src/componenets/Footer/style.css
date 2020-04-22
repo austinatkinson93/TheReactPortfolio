@@ -1,0 +1,7 @@
+.footer {
+    position: -webkit-sticky;
+    position: sticky;
+    height: 50px;
+    bottom: 100px;
+    z-index: -1;
+  }

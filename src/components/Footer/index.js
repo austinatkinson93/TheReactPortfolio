@@ -1,11 +1,11 @@
 import React from "react";
+import "./style.css"
 
 function Footer() {
-    return <div>
-        <div class="footer">
-            <p>Article 1 Footer</p>
-        </div>
+    return <div class="container-fluid footer">
+        Copyright Austin Atkinson &#169;
     </div>
+  
 }
 
 export default Footer;

@@ -1,7 +1,8 @@
 import React from "react";
+import "../../pages/Projects/style.css"
 
 function Project(props) {
-    return <div class="carousel-item active">
+    return <div class="project">
         <img src={props.src} class="d-block w-100 carousel-image projectImage"
             alt={props.name}></img>
         <div class="carousel-caption d-none d-md-block">

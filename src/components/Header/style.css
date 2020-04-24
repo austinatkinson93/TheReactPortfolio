@@ -7,9 +7,19 @@
         height: auto;
         justify-content: center;
         margin: auto;
+        margin-top:40px;
 }
-/* 
-.yeah {
-        display: flex;
-        flex-direction: column;
-} */
+
+.pageHeader {
+        font-family: "Courier New", Courier, monospace;
+        letter-spacing: -3px;
+        word-spacing: 2px;
+        color: #000000;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        color:black;
+        text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}

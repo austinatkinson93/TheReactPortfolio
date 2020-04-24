@@ -1,0 +1,20 @@
+.aboutMeText {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: large;
+  
+}
+
+li {
+  list-style-type: disc;
+}
+
+hr {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.skills {
+  display: block;
+  justify-content: center;
+}

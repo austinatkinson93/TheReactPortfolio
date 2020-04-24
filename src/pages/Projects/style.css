@@ -23,3 +23,12 @@
     max-height: 225px;
     color: black;
 }
+
+.project {
+    min-height: 500px;
+}
+
+.projectHeader {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}

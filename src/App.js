@@ -6,6 +6,7 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Contact from "./pages/Contact"
 import Projects from "./pages/Projects"
+import "./App.css"
 
 function App() {
 
@@ -13,16 +14,40 @@ function App() {
     <Router>
       <div>
         <Navigation />
-        <Switch>
-          <Route exact path="/">
-            <Header />
-            <AboutMe />
-            <Projects/>
-          </Route>
-          <Route exact path="/contact">
-            <Contact/>
-          </Route>
-        </Switch>
+        <div class="mainBody">
+          <Switch>
+            <Route exact path="/">
+              <Header />
+              <AboutMe />
+              <Projects />
+        <div class="background">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
+            </Route>
+          </Switch>
+        </div>
         <Footer />
       </div>
     </Router>

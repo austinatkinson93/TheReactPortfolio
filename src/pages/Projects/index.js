@@ -5,7 +5,7 @@ import "./style.css"
 
 function Projects() {
     return <div id="projects" class="container">
-        <h1 class="projectHeader">My Projects</h1>
+        <h1 class="projectHeader title">My Projects</h1>
         <div class="container projects">
             <div class="portfolio col-12"></div>
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">

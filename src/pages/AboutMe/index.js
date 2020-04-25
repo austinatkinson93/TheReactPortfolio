@@ -4,6 +4,7 @@ import "./style.css"
 
 function AboutMe() {
     return <div class="container" id="aboutme" >
+        <div class="buffer"></div>
         <article>
             <h1 class="title aboutMeHeader"  >About me</h1>
             <p class="aboutMeText">Enthusiastic Full Stack Web Developer in training, currently
@@ -15,20 +16,60 @@ function AboutMe() {
             <p class="aboutMeText">Hardworking, self-motivated individual with a passion for coding and web development, I am
             enlivened to learn as much as I can in hopes of one day opening and running my own
         gaming center and breaking into the world of E-sports.</p>
-            <hr />
+            <br />
             <h1 class="title">Skills</h1>
-            <div class="skills">
-                <h3>Front-End</h3>
-                <ul>
-                    <li>Javascript</li>
-                    <li>jQuery</li>
-                    <li>Bootstrap</li>
-                    <li>React</li>
-                    <li>HTML, CSS</li>
-                </ul>
+            <div class="skills container">
+                <div class="row">
+                    <div class="col list">
+                        <h3>-Front-End-</h3>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>HTML, CSS</li>
+                        </ul>
+                    </div >
+                    <div class="col list">
+                        <h3>-Backend-</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB</li>
+                            <li>Mongoose</li>
+                            <li>MySQL/Sequelize</li>
+                        </ul>
+                    </div>
+                    <div class="col list">
+                        <h3>-Libraries-</h3>
+                        <ul>
+                            <li>jQuery</li>
+                            <li>Bootstrap</li>
+                            <li>React.js</li>
+                        </ul>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col list">
+                        <h3>-Dev Tools-</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>Github</li>
+                            <li>Heroku</li>
+                        </ul>
+                    </div >
+                    <div class="col list">
+                        <h3>-Fundamentals-</h3>
+                        <ul>
+                            <li>APIs</li>
+                            <li>JSON</li>
+                            <li>AJAX</li>
+                            <li>Data Structures</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </article>
-        <hr />
+        <br />
     </div>
 }
 

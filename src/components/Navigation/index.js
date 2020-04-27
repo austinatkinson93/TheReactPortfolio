@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
-
 import { HashLink as Link } from 'react-router-hash-link';
+import GithubIcon from "../../assets/images/icons8-github-48.png"
+import LinkedinIcon from "../../assets/images/icons8-linkedin-50.png"
 
 
 function Navigation() {
@@ -22,7 +23,7 @@ function Navigation() {
                     <Link smooth className="nav-link" to="/#projects">Projects</Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth className="nav-link" to="/#contact">Contact</Link>
+                    <Link smooth className="nav-link" to="/#npcontact">Contact</Link>
                 </li>
                 <li class="nav-item">
                     <a  target="_blank" class="nav-link guide"
@@ -33,12 +34,12 @@ function Navigation() {
             <ul className="navbar-nav mr-auto navbar-links col-2">
                 <li className="text-center nav-item" id="socialIcon">
                     <a href="https://www.linkedin.com/in/austin-atkinson1993/" target="_blank"><img
-                        src="assets/images/icons8-linkedin-50.png" width="40" height="40"
+                        src={ LinkedinIcon } width="40" height="40"
                         alt="LinkedIn Icon"></img></a>
                 </li>
                 <li className="text-center nav-item " id="socialIcon">
                     <a href="https://github.com/austinatkinson93" target="_blank"><img
-                        src="assets/images/icons8-github-48.png" width="40" height="40"
+                        src={ GithubIcon } width="40" height="40"
                         alt="GitHub Icon"></img></a>
                 </li>
             </ul>

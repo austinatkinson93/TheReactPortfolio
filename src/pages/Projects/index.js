@@ -1,6 +1,9 @@
 import React from "react";
 import Project from "../../components/Project"
 import "./style.css"
+import PasswordGeneratorImage from "../../assets/images/passwordgeneratorimage.jpg"
+import TheQuizImage from "../../assets/images/quizimage.jpg"
+import SamayaImage from "../../assets/images/SamayaImage.PNG"
 
 
 function Projects() {
@@ -24,23 +27,23 @@ function Projects() {
                     </div>
                     <div className="carousel-item">
                         <Project
-                            src="assets/images/passwordgeneratorimage.jpg"
+                            src={PasswordGeneratorImage}
                             name="Password Generator"
                             href="https://austinatkinson93.github.io/PasswordGenerator/">
                         </Project>
                     </div>
                     <div className="carousel-item">
                         <Project
-                            src="assets/images/quizimage.jpg"
+                            src={TheQuizImage}
                             name="The Quiz"
                             href="https://austinatkinson93.github.io/TheQuiz/">
                         </Project>
                     </div>
                     <div className="carousel-item">
                         <Project
-                        src="assets/images/SamayaImage.png"
-                        name="Samaya"
-                        href="https://evening-beach-51558.herokuapp.com/"
+                            src={SamayaImage}
+                            name="Samaya"
+                            href="https://evening-beach-51558.herokuapp.com/"
                         >
                         </Project>
 

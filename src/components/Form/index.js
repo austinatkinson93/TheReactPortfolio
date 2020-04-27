@@ -14,28 +14,28 @@ export default class MyForm extends React.Component {
     render() {
         const { status } = this.state;
         return (
-            <div class="card">
+            <div className="card">
             <form
-                class="emailForm"
+                className="emailForm"
                 onSubmit={this.submitForm}
                 action="https://formspree.io/meqlyyka"
                 method="POST"
             >
                 <fieldset id="fs-frm-inputs">
-                    <div class="form-group">
-                        <label class="exampleInputName" for="full-name">Full Name</label>
-                        <input class="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required=""></input>
+                    <div className="form-group">
+                        <label className="exampleInputName" for="full-name">Full Name</label>
+                        <input className="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required=""></input>
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label for="email-address">Email Address</label>
-                        <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""></input>
+                        <input className="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""></input>
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label for="message">Message</label>
-                        <textarea  class="form-control" rows="5" name="message" id="message" placeholder="Enter Message Here" required=""></textarea>
+                        <textarea  className="form-control" rows="5" name="message" id="message" placeholder="Enter Message Here" required=""></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
                     </div>
-                <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
+                <button className="btn btn-primary" type="submit" value="Submit">Submit</button>
                 </fieldset>
             </form>
             </div>

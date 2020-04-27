@@ -22,7 +22,7 @@ function Navigation() {
                     <Link smooth className="nav-link" to="/#projects">Projects</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <Link smooth className="nav-link" to="/#contact">Contact</Link>
                 </li>
                 <li class="nav-item">
                     <a  target="_blank" class="nav-link guide"

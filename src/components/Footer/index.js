@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css"
 
 function Footer() {
-    return <div class="container-fluid footer">
+    return <div className="container-fluid footer">
         Copyright Austin Atkinson &#169;
     </div>
   

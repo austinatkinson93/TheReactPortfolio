@@ -7,29 +7,29 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import Form from "../../components/Form"
 
 function Contact() {
-    return <div class="container contact ">
-        <h1 class="title ">Contact</h1>
-        <div class="container contactInfo ">
-            <div class="section email">
-                <div class="row">
-                    <span class="icon">
+    return <div className="container contact ">
+        <h1 className="title ">Contact</h1>
+        <div className="container contactInfo ">
+            <div className="section email">
+                <div className="row">
+                    <span className="icon">
                         <FontAwesomeIcon icon={faEnvelopeOpenText} size="lg"> </FontAwesomeIcon>
                     </span>
                     <h2>Email:</h2>
                 </div>
                 <p>- Austinatkinson1993@gmail.com</p>
             </div>
-            <div class="section phone">
-                <div class="row">
-                    <span class="icon">
+            <div className="section phone">
+                <div className="row">
+                    <span className="icon">
                         <FontAwesomeIcon icon={faPhoneVolume} size="lg"> </FontAwesomeIcon>
                     </span>                    <h2>Phone:</h2>
                 </div>
                 <p>- 954-520-5189</p>
             </div>
-            <div class="section github">
-                <div class=" row">
-                    <span class="icon">
+            <div className="section github">
+                <div className=" row">
+                    <span className="icon">
                         <FontAwesomeIcon icon={faGithubSquare} size="lg"> </FontAwesomeIcon>
                     </span>
                     <h2>Github:</h2>
@@ -37,8 +37,8 @@ function Contact() {
                 <a href="https://github.com/austinatkinson93">https://github.com/austinatkinson93</a>
             </div>
         </div>
-        <div class="contactEmailForm">
-            <h2 class="title">Shoot Me An Email</h2>
+        <div className="contactEmailForm">
+            <h2 className="title">Shoot Me An Email</h2>
             <Form ></Form>
         </div>
     </div>

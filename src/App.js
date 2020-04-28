@@ -16,7 +16,7 @@ function App() {
         <Navigation />
         <div className="mainBody">
           <Switch>
-            <Route exact path="/">
+            <Route exact path={["/", "/TheReactPortfolio"]}>
               <Header />
               <AboutMe />
               <Projects />
